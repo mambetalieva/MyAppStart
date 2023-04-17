@@ -8,17 +8,55 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack (spacing: 100){
+            HStack {
+                Button {
+                    
+                }label: {
+                    Image(systemName: "car")
+                }
+                Spacer()
+                
+                Text("Manas Ava")
+                
+                Spacer()
+                
+                Button {
+                    
+                }label: {
+                    Image(systemName: "car")
+                }
+            }
+            .padding(.horizontal)
+           HStack {
+               Button {
+                   
+               }label: {
+                   Image(systemName: "car")
+               }
+               Spacer()
+               
+               Button {
+                   
+               }label: {
+                   Image(systemName: "car")
+               }
+            Spacer()
+               Button {
+                   
+               }label: {
+                   Image(systemName: "car")
+               }
+                
+            }
+           .padding()
+            Text("56 stories open")
         }
-        .padding()
     }
 }
-
+            
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
